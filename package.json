@@ -2,7 +2,8 @@
   "name": "@wyndigo/broadcaster",
   "version": "0.0.1",
   "description": "Very simplified state broadcaster",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "prepublish": "rm -rf dist && ./node_modules/.bin/tsc",
     "build": "./node_modules/.bin/tsc",
