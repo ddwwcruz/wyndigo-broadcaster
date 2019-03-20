@@ -64,6 +64,13 @@ export class State<T> {
   }
 
   /**
+   * Resets the state to the initial state
+   */
+  reset() {
+    this.set(this[INITIAL_STATE]);
+  }
+
+  /**
    * Broadcast changes to other listeners
    */
   protected broadcast() {
