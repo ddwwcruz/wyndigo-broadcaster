@@ -1,0 +1,19 @@
+{
+  "name": "@wyndigo/broadcaster",
+  "version": "0.0.1",
+  "description": "Very simplified state broadcaster",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Wayne Dele Cruz <ddwwcruz@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.6",
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2",
+    "ts-node": "^8.0.3",
+    "typescript": "^3.3.4000"
+  }
+}
