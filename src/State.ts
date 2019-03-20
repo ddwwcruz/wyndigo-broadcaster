@@ -60,6 +60,7 @@ export class State<T> {
    */
   subscribe(subscriber: Subscriber<T>) {
     this[SUBSCRIBERS].add(subscriber);
+    return subscriber;
   }
 
   /**
