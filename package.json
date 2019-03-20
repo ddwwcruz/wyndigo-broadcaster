@@ -9,6 +9,10 @@
     "build": "./node_modules/.bin/tsc",
     "test": "mocha -r ts-node/register test/*.ts"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ddwwcruz/wyndigo-broadcaster.git"
+  },
   "author": "Wayne Dele Cruz <ddwwcruz@gmail.com>",
   "license": "MIT",
   "devDependencies": {
