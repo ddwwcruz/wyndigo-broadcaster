@@ -58,7 +58,7 @@ export class State<T> {
    * Subscribe to this broadcaster
    * @param subscriber Subscriber
    */
-  subscribe(subscriber: Subscriber<T>) {
+  subscribe(subscriber: Subscriber<T>): Subscriber<T> {
     this[SUBSCRIBERS].add(subscriber);
     return subscriber;
   }
