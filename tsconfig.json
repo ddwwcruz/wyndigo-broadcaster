@@ -3,7 +3,8 @@
     "target": "es5",
     "module": "commonjs",
     "lib": [
-      "es2016"
+      "es2016",
+      "dom",
     ],
     // "allowJs": true,                       /* Allow javascript files to be compiled. */
     // "checkJs": true,                       /* Report errors in .js files. */
