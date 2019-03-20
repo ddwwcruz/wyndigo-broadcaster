@@ -3,7 +3,7 @@
 ## State
 
 ```js
-import { State } from '@wyndigo/broadcaster`
+import { State } from '@wyndigo/broadcaster'
 
 let stateBroadcaster = new State({
   something: 'someValue'
