@@ -31,6 +31,13 @@ export class State<T> {
   }
 
   /**
+   * The number of subscribers
+   */
+  get size() {
+    return this[SUBSCRIBERS].size;
+  }
+
+  /**
    * Sets the state of this broadcaster
    * @param newState New state to merge into the current state
    */
