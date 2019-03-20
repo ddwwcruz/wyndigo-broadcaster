@@ -23,7 +23,7 @@ describe('State', () => {
   });
 
   it('should be able to subscribe', () => {
-    state.subscribe(subscriber = ({ number }) => {
+    subscriber = state.subscribe(({ number }) => {
       expect(number).to.equal(2);
     });
     state.set(({ number }) => ({ number: number + 1 }));
