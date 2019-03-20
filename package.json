@@ -1,5 +1,5 @@
 {
-  "name": "@wyndigo/broadcaster",
+  "name": "wyndigo-broadcaster",
   "version": "0.0.1",
   "description": "Very simplified state broadcaster",
   "main": "dist/index.js",
